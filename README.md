@@ -4,7 +4,7 @@ In [Ditana](https://github.com/acrion/ditana) specifically, Sparrow6 and other R
 
 ## Objective
 
-Create a fully automated system to package all Raku/zef modules as native Arch packages, enabling system-wide availability without mixing package managers.
+Create a fully automated system in Raku to package all Raku/zef modules as native Arch packages, enabling system-wide availability without mixing package managers.
 
 ## Implementation Details
 
@@ -13,7 +13,7 @@ Create a fully automated system to package all Raku/zef modules as native Arch p
   ```bash
   zef list | sed 's/:.*$//' | sort -u
   ```
-  Currently yields 991 unique packages (implementation will be in Raku)
+  Currently yields 991 unique packages
 - Metadata extraction: `zef info -v <package>` provides version, description and direct dependencies
 
 ### Build Process
