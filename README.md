@@ -1,6 +1,6 @@
 Arch Linux and Arch-based distributions currently lack native packaging for Raku/zef modules, forcing users to mix package managers. This creates conflicts with the single package manager philosophy adopted by many distributions. Arch Linux has already solved this for Python by packaging all modules with the `python-` prefix as native Arch packages, avoiding foreign package managers and providing benefits for dependency management, updates, and file tracking (see [PEP 668](https://packaging.python.org/en/latest/specifications/externally-managed-environments/)).
 
-In [Ditana](https://github.com/acrion/ditana) specifically, Sparrow6 and other Raku modules are only available during installation in chroot, but not in the installed system. Alpine Linux has demonstrated a similar approach for Raku by packaging zef modules as native APK packages (see https://pkgs.alpinelinux.org/packages?name=raku-%2A, listing 94 packages of the 991 currently available). This project aims to bring the same automated solution to the Arch ecosystem for Raku modules.
+In [Ditana](https://github.com/acrion/ditana) specifically, Sparrow6 and other Raku modules are only available during installation in chroot, but not in the installed system. Alpine Linux has demonstrated a similar approach for Raku by packaging zef modules as native APK packages (see https://pkgs.alpinelinux.org/packages?name=raku-%2A, listing 94 packages of the 991 currently available). This project aims to bring an automated solution to the Arch ecosystem for Raku modules.
 
 ## Objective
 
